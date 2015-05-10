@@ -20,7 +20,7 @@ with (XPower , lines(Date_Time, Sub_metering_2, col="red"))
 with (XPower , lines(Date_Time, Sub_metering_3, col="blue"))
 
 
-legend("topright", pch = 22, col = c("black", "red", "blue"), 
+legend("topright", pch = 22, col = c("black", "red", "blue"), cex= .5 ,
        legend = c("Sub metering 1", "Sub metering 2", "Sub metering 3"))
 
 
