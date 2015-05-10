@@ -28,3 +28,5 @@ with( XPower, plot(Date_Time, Global_active_power, type ="l",
 
 dev.copy(png, file= "plot2.png")
 dev.off()
+
+
